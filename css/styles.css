@@ -186,6 +186,13 @@ body {
     text-decoration: none;
 }
 
+.address-link:hover,
+.address-link:focus,
+.address-item:hover,
+.address-item:focus {
+    color: var(--accent-color);
+}
+
 /* Стилі portfolio.html */
 
 .filter {

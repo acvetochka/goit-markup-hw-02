@@ -1,6 +1,7 @@
 :root {
     --primary-text-color: #212121;
     --secondary-text-color: #757575;
+    --contrast-text-color: #ffffff;
     --accent-color: #2196F3;
     --primary-background: #ffffff;
     --secondary-background: #2F303A;
@@ -67,7 +68,7 @@ body {
 }
 
 .hero-title {
-    color: #ffffff;
+    color: var(--contrast-text-color);
     text-transform: uppercase;
     font-weight: 900;
     font-size: 44px;
@@ -78,7 +79,7 @@ body {
 
 .btn {
     background-color: var(--accent-color);
-    color: #ffffff;
+    color: var(--contrast-text-color);
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
@@ -147,7 +148,7 @@ body {
 
 .logo-footer,
 .logo-footer:visited {
-    color: #FFFFFF;
+    color: var(--contrast-text-color);
 }
 
 .address-list {
@@ -161,7 +162,7 @@ body {
 }
 .address-link,
 .address-link:visited {
-    color: #FFFFFF;
+    color: var(--contrast-text-color);
     text-decoration: none;
 }
 
@@ -190,7 +191,7 @@ body {
     line-height: 1.62;
     letter-spacing: 0.03em;
 
-    color: #FFFFFF;
+    color: var(--contrast-text-color);
     background-color: var(--accent-color);
 }
 

@@ -2,9 +2,16 @@
     --primary-text-color: #212121;
     --secondary-text-color: #757575;
     --contrast-text-color: #ffffff;
+    --address-item-color: rgba(255, 255, 255, 0.6);
+
     --accent-color: #2196F3;
+    --button-accent: #188CE8;
+
     --primary-background: #ffffff;
     --secondary-background: #2F303A;
+    --content-background: #F5F4FA;
+    --team-background: #FFFFFF;
+    --button-background: #F5F4FA;    
 }
 
 body {
@@ -35,6 +42,10 @@ body {
     letter-spacing: 0.03em;
 }
 
+.logo {
+    color:var(--primary-text-color);
+}
+
 .logo:visited,
 .link:visited {
     color: var(--primary-text-color);
@@ -58,6 +69,7 @@ body {
     line-height: 1.14;
     text-decoration: none;
     letter-spacing: 0.02em;
+    color: var(--primary-text-color);
 }
 
 .link:hover,
@@ -101,16 +113,18 @@ body {
     letter-spacing: 0.06em;
     font-family: inherit;
     cursor: pointer;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border: none;
 }
 
 .btn:hover,
 .btn:focus {
-    background-color: #188CE8;
+    background-color: var(--button-accent);
 }
 
 /* Переваги */
 .benefits-title {
-    font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase;
@@ -125,29 +139,27 @@ body {
 }
 
 .section-title {
-    font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
 }
 
-/* Чим займаємось */
-.services {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.67;
-    letter-spacing: 0.03em;
-
-    list-style: none;
-}
-
 /* Команда */
 .team {
-    background-color: #F5F4FA;
+    background-color:var(--content-background);
+}
+
+.team-item {
+    background: var(--team-background);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 
+                0px 1px 1px rgba(0, 0, 0, 0.14), 
+                0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
 }
 
 .name {
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
     letter-spacing: 0.03em;
@@ -182,7 +194,7 @@ body {
 }
 
 .address-item {
-    color: rgba(255, 255, 255, 0.6);
+    color: var(--address-item-color);
     text-decoration: none;
 }
 
@@ -204,7 +216,10 @@ body {
     font-size: 16px;
     line-height: 1.62;
     letter-spacing: 0.03em;
-    
+
+    background-color: var(--button-background);
+    border:none;
+
     cursor: pointer;
 }
 
@@ -228,7 +243,6 @@ body {
 }
 
 .projects-title {
-    font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;

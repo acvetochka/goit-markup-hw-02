@@ -102,4 +102,6 @@
 
 [Домашня робота № 7](https://github.com/acvetochka/goit-markup-hw-07)
 
-[Закінчений проект](https://github.com/acvetochka/WebStudio)
+### Закінчений проект
+[Github](https://github.com/acvetochka/WebStudio) [WebStudio](acvetochka.github.io/WebStudio/)
+

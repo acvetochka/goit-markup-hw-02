@@ -88,3 +88,18 @@
 «С16» Кнопкам задана властивість cursor зі значенням pointer.
 
 «С17» У стилях не повторюються значення властивостей, які задані браузером за замовчуванням. Наприклад, посиланням не потрібно вказувати cursor: pointer, а абзацам font-style: normal або font-weight: 400.
+
+## Пов'язані репозиторії:
+[Домашня робота № 1](https://github.com/acvetochka/goit-markup-hw-01)
+
+[Домашня робота № 3](https://github.com/acvetochka/goit-markup-hw-03)
+
+[Домашня робота № 4](https://github.com/acvetochka/goit-markup-hw-04)
+
+[Домашня робота № 5](https://github.com/acvetochka/goit-markup-hw-05)
+
+[Домашня робота № 6](https://github.com/acvetochka/goit-markup-hw-06)
+
+[Домашня робота № 7](https://github.com/acvetochka/goit-markup-hw-07)
+
+[Закінчений проект](https://github.com/acvetochka/WebStudio)

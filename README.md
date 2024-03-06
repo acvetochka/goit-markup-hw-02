@@ -92,16 +92,17 @@
 ## Пов'язані репозиторії:
 [Домашня робота № 1](https://github.com/acvetochka/goit-markup-hw-01)
 
+[Домашня робота № 2](https://github.com/acvetochka/goit-markup-hw-02) `поточний`
+
 [Домашня робота № 3](https://github.com/acvetochka/goit-markup-hw-03)
 
 [Домашня робота № 4](https://github.com/acvetochka/goit-markup-hw-04)
 
-[Домашня робота № 5](https://github.com/acvetochka/goit-markup-hw-05)
+[Домашня робота № 5](https://github.com/acvetochka/goit-markup-hw-05) 
 
-[Домашня робота № 6](https://github.com/acvetochka/goit-markup-hw-06)
+[Домашня робота № 6](https://github.com/acvetochka/goit-markup-hw-06) 
 
-[Домашня робота № 7](https://github.com/acvetochka/goit-markup-hw-07)
+[Домашня робота № 7](https://github.com/acvetochka/goit-markup-hw-07) 
 
 ### Закінчений проект
 [Github](https://github.com/acvetochka/WebStudio) [WebStudio](acvetochka.github.io/WebStudio/)
-
